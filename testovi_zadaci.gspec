@@ -1,0 +1,74 @@
+@objects
+	body body
+	odabirVjezbe #odabirVjezbe
+	odabirZadatka #odabirZadatka
+	odabirVerzije #odabirVerzije
+	komentar #komentar
+	posalji #posalji
+    errorLog #errorLog
+    nemaGr #nemaGr
+    dodajRez #dodajRez
+    formaOdabir #formaOdabir
+    formaGreske #formaGreske
+
+= Width section =
+
+= Height section =
+
+= Inside section =
+	odabirVjezbe:
+		inside formaOdabir
+	odabirZadatka:
+		inside formaOdabir
+    odabirVerzije:
+		inside formaOdabir
+    komentar:
+		inside formaOdabir
+    posalji:
+		inside formaOdabir
+
+    errorLog:
+		inside formaGreske
+    nemaGr:
+		inside formaGreske
+    dodajRez:
+		inside formaGreske
+
+    formaOdabir:
+		inside body
+    formaGreske:
+		inside body
+    
+
+= Left of section =
+
+= Right of section =
+
+= Above section =
+	formaOdabir:
+		above formaGreske
+
+= Below section =
+	formaGreske:
+		below formaOdabir
+
+= Visible section =
+	odabirVjezbe:
+		visible
+	odabirZadatka:
+		visible
+	odabirVerzije:
+		visible
+	komentar:
+		visible
+	posalji:
+		visible
+    errorLog:
+		visible
+    nemaGr:
+		visible
+    dodajRez:
+		visible
+
+= Inside partly section =
+

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+
+	<HEAD>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link rel="stylesheet" type="text/css" href="zadaci.css">
+	</HEAD>
+	<BODY>
+		<div id="formaOdabir">
+		<form action="/action_page.php">
+  			<label for="odabirVjezbe">Odabir vježbe:</label>
+  			<select name="odabirVjezbe" id="odabirVjezbe">
+    			<option value="vjezba1">Vježba 1</option>
+    			<option value="vjezba2">Vježba 2</option>
+    			<option value="vjezba3">Vježba 3</option>
+    			<option value="vjezba4">Vježba 4</option>
+  			</select>
+  			<br><br>
+
+  			<label for="odabirZadatka">Odabir zadatka:</label>
+  			<select name="odabirZadatka" id="odabirZadatka">
+    			<option value="zadatak1">Zadatak 1</option>
+    			<option value="zadatak2">Zadatak 2</option>
+    			<option value="zadatak3">Zadatak 3</option>
+    			<option value="zadatak4">Zadatak 4</option>
+  			</select>
+  			<br><br>
+
+  			<label for="odabirVerzije">Odabir verzije:</label>
+  			<select name="odabirVerzije" id="odabirVerzije">
+    			<option value="verzija1">Verzija 1</option>
+    			<option value="verzija2">Verzija 2</option>
+    			<option value="verzija3">Verzija 3</option>
+    			<option value="verzija4">Verzija 4</option>
+  			</select>
+  			<br><br>
+
+  			<label for="komentar">Komentar:</label><br>
+  			<textarea id="komentar" name="komentar"></textarea><br><br>
+
+  			<button id="posalji" type="button">Pošalji</button><br><br>
+		</form>
+		</div>
+
+
+		<div id=formaGreske>
+		<form action="/action_page.php">
+  			<label for="errorLog">Errors log:</label><br>
+  			<textarea id="errorLog" name="errorLog"></textarea><br><br>
+  			<label for="nemaGr">Bez grešaka:</label>
+  			<input type="checkbox" id="nemaGr" name="nemaGr"><br><br>
+
+  			<button id="dodajRez" type="button">Dodaj rezultate testa</button>
+		</form> 
+		</div>
+
+	</BODY>
+
+</HTML>

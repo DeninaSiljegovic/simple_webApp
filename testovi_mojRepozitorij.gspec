@@ -1,0 +1,54 @@
+@objects
+    body body
+	urlRepo #urlRepo
+	akGod #akGod
+	branchIme #branchIme
+	posalji #posalji
+
+= Width section =
+
+= Height section =
+
+= Inside section =
+	urlRepo:
+		inside body
+	akGod:
+		inside body
+    branchIme:
+		inside body
+    posalji:
+		inside body
+    
+
+= Left of section =
+	
+= Right of section =
+
+= Above section =
+	urlRepo:
+		above akGod
+	akGod:
+		above branchIme
+	branchIme:
+		above posalji
+
+= Below section =
+	posalji:
+		below branchIme
+	branchIme:
+		below akGod
+	akGod:
+		below urlRepo
+
+= Visible section =
+	urlRepo:
+		visible
+	akGod:
+		visible
+	branchIme:
+		visible
+	posalji:
+		visible
+
+= Inside partly section =
+

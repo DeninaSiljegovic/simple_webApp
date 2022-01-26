@@ -40,7 +40,7 @@ let VjezbeAjax = (function(){
             }
         }
         //xhttp.send({brojVjezbi: vjezbeObjekat.brojVjezbi,  brojZadataka: vjezbeObjekat.brojZadataka});
-        console.log("posaljiPodatke: " + vjezbeObjekat);
+        //console.log("posaljiPodatke: " + vjezbeObjekat);
         ajax.send(vjezbeObjekat);
     }
 
@@ -54,8 +54,7 @@ let VjezbeAjax = (function(){
         ajax.onreadystatechange = function() {
             if (ajax.readyState == 4 && ajax.status == 200) {
                 callbackFja(null, ajax.response);
-            }
-            /* ovo sam dodala 10.1.2022. */
+            }           
             else if(ajax.readyState == 4){
                 callbackFja(ajax.response.data, null)
             }
